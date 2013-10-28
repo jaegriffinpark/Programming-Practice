@@ -1,0 +1,70 @@
+==General Characters==
+
+print 			prints whatever follows to the console
+return			returns the value
+4				digit/number
+4.0				float
+"four"			string
+True			boolean TRUE
+False			boolean FALSE
+if				conditional, if (condition): execute a else execute b
+elif			conditional, if (condition): execute a elif execute b else execute c
+else			conditional, if (condition): execute a else execute b
+while			loop condition, while (condition): execute a
+for				loop condition, for (specified range): execute a
+'				single-quote, for strings
+"				double-quote, for strings
+"""				triple-quote, can comment out multi-line block of text
+#				comment, used to prevent a piece of code from running
+\				cancels a ' or " in a string
+\n				new line, when printing to console
+\t				tab indentation, when printing to console
+[ ]       		list constructors
+( )				parentheses, used to specify arguments. If empty - no args
++				addition
+-				subtraction
+*				multiplication
+/				division
+%				modulo, returns the remainder of two arguments (5 % 2) = 1
+<				less-than
+>				greater-than
+<=				less-than or equal-to
+>=				greater_than or equal-to
+==				equal to
+!=				does not equal
+and				x AND y are both true
+or				either x OR y is true, but not both
+not				not x
+= 			 	variable definition
++= / -=			shorthand for redefining and incrementing eg. x = x + 1, y = y - 1
+_				underscore, should be used when naming variables or arguments
+.				period if used in a string. also used to call function on var
+,				comma, use to separate arguments
+:				colon, use during function definition
+def 			define a new function
+argv			command line arguments
+*args			receive an unknown amount of elements
+%d %s %r		insertion of digit or string
+raw_input()		prompts user for input
+from			accesses library for import
+import			imports specified module
+
+
+==File Methods==
+
+argv			receive command line arguments, such as a filename
+open()			opens the specified file
+close()			closes the specified file
+read()			will "read" or access data from the file
+truncate()		wipe the file
+readline()		will access data from the specified line within file
+
+==Indexes, Strings, Lists==
+
+[ ]				list constructor
+append()		appends argument to end of string. eg. list.append("hey")
+len()			returns the length of the argument
+range()			specify a range, eg: 1:15
+a[0]			returns the initial element of list a
+a[1:]			returns the second through final element of list a
+a[:5]			returns the first through sixth element of list a
